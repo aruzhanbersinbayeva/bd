@@ -1,4 +1,3 @@
--- Full Name: Bersinbayeva Aruzhan Radzhanovna
 -- Laboratory Work: Database Constraints in PostgreSQL
 
 --------------------------------------------------------------------------------
