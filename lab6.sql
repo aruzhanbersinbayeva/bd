@@ -265,38 +265,6 @@ WHERE (
 
 
 -- ============================================================
--- LAB QUESTIONS: ANSWERS
--- ============================================================
-
--- 1. INNER JOIN returns only matching rows from both tables.
---    LEFT JOIN returns all rows from the left table and matching rows
---    from the right table; unmatched right-side values are NULL.
-
--- 2. CROSS JOIN is useful for generating all possible combinations,
---    for example every employee paired with every project.
-
--- 3. For outer joins, ON determines matching rows and preserves
---    unmatched rows from the preserved side. WHERE filters the result
---    after the join and can remove those unmatched rows.
---    For INNER JOIN, moving a condition between ON and WHERE gives
---    the same result for ordinary deterministic conditions.
-
--- 4. COUNT(*) after CROSS JOIN of 5 rows and 10 rows is 5 * 10 = 50.
-
--- 5. NATURAL JOIN uses all columns that have the same names in both tables.
-
--- 6. NATURAL JOIN can unexpectedly use additional same-named columns
---    after schema changes. Explicit ON or USING is usually safer.
-
--- 7. SELECT * FROM A LEFT JOIN B ON A.id = B.id;
---    Equivalent RIGHT JOIN:
---    SELECT * FROM B RIGHT JOIN A ON A.id = B.id;
-
--- 8. FULL OUTER JOIN is useful when all rows from both tables are needed,
---    including unmatched records from either side.
-
-
--- ============================================================
 -- ADDITIONAL CHALLENGES (OPTIONAL)
 -- ============================================================
 
